@@ -1,0 +1,114 @@
+/* 1______________________________________ */
+
+#ex01 .recipe {
+  transition: transform 0.4s;
+}
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+/* 2______________________________________ */
+
+#ex02 .recipe-image {
+  transition: transform 0.4s;
+}
+
+#ex02 .recipe-image:hover {
+  transform: rotate(5deg);
+}
+
+/* 3______________________________________ */
+
+#ex03 .recipe-image {
+  transition: transform 0.4s;
+}
+
+#ex03 .recipe:hover .recipe-image {
+  opacity: 0.7;
+}
+
+/* 4______________________________________ */
+
+#ex04 .recipe-title {
+  transition: transform 0.2s 0.4s ease-in-out;
+}
+
+#ex04 .recipe:hover .recipe-title {
+  transform: translateX(20px);
+}
+
+/* 5______________________________________ */
+
+#ex05 .recipe-title {
+  transition: transform 0.2s 0.4s ease-in-out;
+}
+
+#ex05 .recipe:hover .recipe-title {
+  transform: translateX(20px);
+}
+
+/* 6______________________________________ */
+
+#ex06 .recipe {
+  transition: padding 0.2s 0.2s;
+}
+
+#ex06 .recipe:hover {
+  padding-bottom: 30px;
+}
+
+/* 7______________________________________ */
+
+#ex07 .recipe {
+  transition: padding 0.5s 0.5s ease-in-out;
+}
+
+#ex07 .recipe:hover {
+  padding-bottom: 30px;
+  transition: padding 0.5s;
+}
+
+
+#ex07 .recipe-title {
+    transition: transform 0.5s;
+}
+
+#ex07 .recipe:hover .recipe-title {
+    transform: translateY(20px);
+    transition: transform 0.5s 0.5s;
+}
+
+
+pas fini 
+
+/* 8______________________________________ */
+
+#ex08 .recipe {
+  transition: box-shadow 0.4s;
+}
+
+#ex08 .recipe:hover {
+  box-shadow: 0 0 10px 2px;
+}
+
+/* 9______________________________________ */
+
+#ex09 .recipe-title {
+  transition: padding 0.2s 0.2s;
+}
+
+#ex09 .recipe:hover {
+  padding-bottom: 30px;
+}
+
+/* 10______________________________________ */
+
+#ex10 {
+    transition: ;
+  }
+  
+  #ex10 :hover {
+  }
+  
+  pas encore fait 
