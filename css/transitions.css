@@ -69,18 +69,14 @@
   transition: padding 0.5s;
 }
 
-
 #ex07 .recipe-title {
-    transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 
 #ex07 .recipe:hover .recipe-title {
-    transform: translateY(20px);
-    transition: transform 0.5s 0.5s;
+  transform: translateY(20px);
+  transition: transform 0.5s 0.5s;
 }
-
-
-pas fini 
 
 /* 8______________________________________ */
 
@@ -98,17 +94,16 @@ pas fini
   transition: padding 0.2s 0.2s;
 }
 
-#ex09 .recipe:hover {
-  padding-bottom: 30px;
+#ex09 .recipe:hover .recipe-header {
+  transform: translateY(-30px);
+}
+
+#ex09 .recipe-header {
+  background-color: white;
 }
 
 /* 10______________________________________ */
 
-#ex10 {
-    transition: ;
-  }
-  
-  #ex10 :hover {
-  }
-  
-  pas encore fait 
+#ex10 .recipe-image:hover {
+  background-image: url(/img/tagliatelles-carbonara_2.jpg);
+}
